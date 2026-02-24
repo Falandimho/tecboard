@@ -1,12 +1,28 @@
-body{
+body {
   margin: 0;
 }
 
 header {
-  background-color: #06151A;
+  background-color: #06151a;
   padding: 32px;
   display: flex;
   justify-content: center;
+}
+
+footer {
+  background-color: #031116;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+footer p {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 120%;
+  vertical-align: middle;
 }
 
 .container {

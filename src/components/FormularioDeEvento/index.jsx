@@ -17,6 +17,7 @@ export function FormularioDeEvento({ temas, aoSubmeter }) {
       }),
       data: new Date(formData.get('data')),
       titulo: formData.get('nome'),
+      descricao: formData.get('desc')
     }
     aoSubmeter(evento);
   }
@@ -32,6 +33,16 @@ export function FormularioDeEvento({ temas, aoSubmeter }) {
             id="nome"
             name="nome"
             placeholder="Summer dev hits"
+          />
+        </CampoDeFormulario>
+
+        <CampoDeFormulario>
+          <Label htmlFor="descricao">Qual o nome do evento</Label>
+          <CampoDeEntrada
+            type="text"
+            id="desc"
+            name="desc"
+            placeholder="O evento mais quente do verão"
           />
         </CampoDeFormulario>
 

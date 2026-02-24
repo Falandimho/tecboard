@@ -39,6 +39,7 @@ function App() {
       tema: temas[0],
       data: new Date(),
       titulo: "Mulheres no Front",
+      descricao: "Evento para celebrar as mulheres que atuam no desenvolvimento front-end."
     },
   ]);
 
@@ -79,6 +80,9 @@ function App() {
           );
         })}
       </section>
+      <footer>
+        <p>Feito por Anthony Emanuel</p>
+      </footer>
     </main>
   );
 }
